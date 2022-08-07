@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "bundlemon": "^1.4.0"
+  },
+  "bundlemon": {
+    "files": [
+      {
+        "path": "main.js"
+      }
+    ],
+    "defaultCompression": "brotli",
+    "verbose": true,
+    "reportOutput": [
+      [
+        "github",
+        {
+          "checkRun": true,
+          "commitStatus": true,
+          "prComment": true
+        }
+      ]
+    ]
+  }
+}
